@@ -1,0 +1,17 @@
+/* Importar el estilo de letra "Arcadia" si es necesario */
+@import url('https://fonts.googleapis.com/css2?family=Arcadia&display=swap');
+
+/* Estilo para el Label con clase arcadia-label */
+.arcadia-label {
+  -fx-font-family: 'Arcadia', sans-serif;
+  -fx-font-size: 16px;
+  -fx-font-weight: normal;
+  -fx-text-fill: #333; /* Color del texto */
+  /* Otras propiedades de estilo como padding, margen, etc. */
+}
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
