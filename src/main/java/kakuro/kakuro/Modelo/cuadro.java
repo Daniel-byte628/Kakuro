@@ -6,12 +6,10 @@ import lombok.Setter;
 @Getter
 @Setter
 public class cuadro {
-    private boolean vacio;
     private boolean editable;
     private int numero;
 
-    public cuadro(boolean vacio, boolean editable, int numero) {
-        this.vacio = vacio;
+    public cuadro(boolean editable, Integer numero) {
         this.editable = editable;
         this.numero = numero;
     }

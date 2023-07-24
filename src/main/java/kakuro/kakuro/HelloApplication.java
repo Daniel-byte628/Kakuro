@@ -5,21 +5,21 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import kakuro.kakuro.Modelo.Tablero;
 
 import java.io.IOException;
 
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-
-        Tablero tablero = new Tablero();
+/*
+       Tablero tablero = new Tablero();
         tablero.mostrarMatriz();
+*/
 
         // Cargar el archivo FXML y crear la escena
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("view/Menu.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("view/Tablero8.fxml"));
         Parent root = fxmlLoader.load();
-        Scene scene = new Scene(root, 1220, 920);
+        Scene scene = new Scene(root, 800, 820);
 
         // Agregar el archivo CSS a la escena
         String css = this.getClass().getResource("LetraMenu.css").toExternalForm();
